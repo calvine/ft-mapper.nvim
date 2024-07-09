@@ -19,9 +19,7 @@ local getMultiExtensionTarget = require('custom/util/handle_template_file').getM
 -- See the kickstart.nvim README for more information
 return {
   {
-    dir = '/home/calvin/code/nvim-dev/ft-mapper.nvim', -- lua/custom/ft-mapper',
-    -- dev = true,
-    -- lazy = true,
+    'calvine/ft-mapper.nvim',
     opts = {
       {
         name = 'multi-extension-template-file',
